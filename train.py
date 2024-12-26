@@ -183,3 +183,7 @@ for epoch in range(epochs):
     print(f"Train Loss: {train_loss:.4f}, Train mIoU: {train_iou:.4f}")
     print(f"Val Loss: {val_loss:.4f}, Val mIoU: {val_iou:.4f}")
     plot_predictions(model, val_loader, device)
+
+
+
+torch.save(model.module.state_dict(), "drivable_area_segmentation_model.pth")
