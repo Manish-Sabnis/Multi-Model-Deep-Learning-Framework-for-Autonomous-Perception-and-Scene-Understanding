@@ -1,7 +1,7 @@
 # Multi-Model-Deep-Learning-Framework-for-Autonomous-Perception-and-Scene-Understanding
 
 
-This repository contains the implementation of a drivable area segmentation model using ResNet-50 as the backbone of a Feature Pyramid Network (FPN). The model is enhanced with Monte Carlo (MC) Dropout and Spatial Dropout to estimate uncertainty in segmentation.
+<p align = 'justify'> This repository contains the implementation of a drivable area segmentation model using ResNet-50 as the backbone of a Feature Pyramid Network (FPN). The model is enhanced with Monte Carlo (MC) Dropout and Spatial Dropout to estimate uncertainty in segmentation. </p>
 
 ## **Features**
 - **_ResNet-50 Backbone:_** Pretrained on ImageNet for transfer learning.
@@ -65,7 +65,7 @@ A binary predicted mask was returned along with uncertainty estimation and YOLO 
 ![Output_Night2](https://github.com/user-attachments/assets/b89e4032-48c1-4a93-88e0-0f0fd7684504)
 
 ## **Future Work**
-This model leverages uncertainty estimation and dropout to enhance the prediction of drivable areas for autonomous vehicles, achieving outstanding results on the BDD100K dataset. Integrating an attention mechanism improves focus on relevant features; however, the reliance on the computationally intensive ResNet architecture and repeated evaluations significantly limit real-time applicability, particularly for video processing. While the model effectively performs drivable area segmentation and object detection, it does not address other crucial tasks like depth estimation. Future work should focus on developing real-time, multi-task frameworks that balance speed and accuracy, offering a more comprehensive solution for autonomous perception.
+<p align = 'justify'> This model leverages uncertainty estimation and dropout to enhance the prediction of drivable areas for autonomous vehicles, achieving outstanding results on the BDD100K dataset. Integrating an attention mechanism improves focus on relevant features; however, the reliance on the computationally intensive ResNet architecture and repeated evaluations significantly limit real-time applicability, particularly for video processing. While the model effectively performs drivable area segmentation and object detection, it does not address other crucial tasks like depth estimation. Future work should focus on developing real-time, multi-task frameworks that balance speed and accuracy, offering a more comprehensive solution for autonomous perception. </p>
 
 
 
